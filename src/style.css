@@ -1,0 +1,52 @@
+li{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+section{
+    background-color: rgb(13, 32, 68);
+}
+nav{
+    background-color: lightgrey;
+}
+button{
+    color: black;
+    font: bold;
+    background-color:white;
+    border-radius: 30px;
+    
+    
+}
+img{
+    border-radius: 50px;
+    height: 40px;
+    width: 40px;
+}
+
+h3{
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    background-color:white;
+    padding-top: 0%;
+    
+}
+.div{
+    background: lightgrey;
+}
+p{
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+
+}
+
+h5{
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    
+    
+}
+
