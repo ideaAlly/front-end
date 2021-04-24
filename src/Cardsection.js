@@ -11,11 +11,12 @@ const Cardsection = () => {
         <div className="container ">
             
           <div className="row" style={{paddingBottom:"40px",paddingTop:"20px"}}>
+              
           <div className="col-4" style={{paddingTop:"40px"}}>
               <div className="card" style={{width: "18rem",borderRadius:"20px"}}>
                 <li>
-                    <div class="col">
-                        <button type="button" class="close" aria-label="Close">
+                    <div className="col">
+                        <button type="button" className="close" aria-label="Close">
                             <span aria-hidden="true">&times;</span>
                         </button>
                     </div>
@@ -46,8 +47,8 @@ const Cardsection = () => {
             <div className="col-4" style={{paddingTop:"40px"}}>
               <div className="card" style={{width: "18rem",borderRadius:"20px"}}>
                 <li>
-                    <div class="col">
-                        <button type="button" class="close" aria-label="Close">
+                    <div className="col">
+                        <button type="button" className="close" aria-label="Close">
                             <span aria-hidden="true">&times;</span>
                         </button>
                     </div>
@@ -76,8 +77,8 @@ const Cardsection = () => {
             <div className="col-4" style={{paddingTop:"40px"}}>
               <div className="card" style={{width: "18rem",borderRadius:"20px"}}>
                 <li>
-                    <div class="col">
-                        <button type="button" class="close" aria-label="Close">
+                    <div className="col">
+                        <button type="button" className="close" aria-label="Close">
                             <span aria-hidden="true">&times;</span>
                         </button>
                     </div>
@@ -106,8 +107,8 @@ const Cardsection = () => {
             <div className="col-4" style={{paddingTop:"40px"}}>
               <div className="card" style={{width: "18rem",borderRadius:"20px"}}>
                 <li>
-                    <div class="col">
-                        <button type="button" class="close" aria-label="Close">
+                    <div className="col">
+                        <button type="button" className="close" aria-label="Close">
                             <span aria-hidden="true">&times;</span>
                         </button>
                     </div>
@@ -136,8 +137,8 @@ const Cardsection = () => {
             <div className="col-4" style={{paddingTop:"40px"}}>
               <div className="card" style={{width: "18rem",borderRadius:"20px"}}>
                 <li>
-                    <div class="col">
-                        <button type="button" class="close" aria-label="Close">
+                    <div className="col">
+                        <button type="button" className="close" aria-label="Close">
                             <span aria-hidden="true">&times;</span>
                         </button>
                     </div>
@@ -166,8 +167,8 @@ const Cardsection = () => {
             <div className="col-4" style={{paddingTop:"40px"}}>
               <div className="card" style={{width: "18rem",borderRadius:"20px"}}>
                 <li>
-                    <div class="col">
-                        <button type="button" class="close" aria-label="Close">
+                    <div className="col">
+                        <button type="button" className="close" aria-label="Close">
                             <span aria-hidden="true">&times;</span>
                         </button>
                     </div>
@@ -193,6 +194,8 @@ const Cardsection = () => {
                 </div>
               </div>
             </div>
+
+            
             
           </div>
         </div>
