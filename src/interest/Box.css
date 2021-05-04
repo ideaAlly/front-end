@@ -19,54 +19,19 @@
 	top: 10px;
 	left: 30px;
 }
-input[type="text"] {
-	position: absolute;
-	width: 40%;
-	top: 20px;
-	right: 150px;
-	height: 40px;
-	border-radius: 5px;
-	border: 1px solid white;
-	outline: none;
-	padding: 5px;
-	transition: 0.2s;
-	margin: 5px 0px;
-	box-sizing: border-box;
-	font-family: "Courier New", Courier, monospace;
-}
-input[type="text"]:focus {
-	border-color: cadetblue;
-	box-shadow: 0 0 5px 0 cadetblue;
-}
 
-.btn {
-	border: 0px solid cadetblue;
-	background: none;
-	padding: 10px 20px;
-	font-size: 15px;
-	font-family: "Courier New", Courier, monospace;
-	font-weight: bolder;
-	border-radius: 5px;
-	position: absolute;
-	width: 100px;
-	top: 26px;
-	right: 40px;
-	transition: 0.8s;
-	overflow: hidden;
-	background-color: white;
-	z-index: 0;
-}
 
-.btn1,
 .Submit {
 	color: cadetblue;
 }
+.Save{
+	color:cadetblue;
+}
 
-.btn1:hover,
-.Submit:hover {
+.Submit:hover,.Save:hover{
 	color: white;
 }
-.btn::before,
+
 .Sub::before {
 	content: "";
 	left: 0;
@@ -79,14 +44,14 @@ input[type="text"]:focus {
 	transition: 0.8s;
 }
 
-.btn1::before,
-.Submit::before {
+
+.Submit::before,.Save::before{
 	top: 0;
 	border-radius: 0 0 50% 50%;
 }
 
-.btn1:hover::before,
-.Submit:hover::before {
+
+.Submit:hover::before,.Save:hover::before {
 	height: 180%;
 }
 
@@ -136,10 +101,10 @@ input[type="text"]:focus {
 
 .Submission {
 	position: absolute;
-	display: flex;
+	display: inline;
 	bottom: 0px;
 }
-.Sub {
+.Sub{
 	border: 0px solid cadetblue;
 	background: none;
 	padding: 10px 20px;
@@ -149,10 +114,19 @@ input[type="text"]:focus {
 	border-radius: 5px;
 	position: absolute;
 	width: 100px;
-	bottom: 20px;
-	left: 700px;
 	transition: 0.8s;
 	overflow: hidden;
 	background-color: white;
 	z-index: 0;
+}
+.Submit{
+	position: absolute;
+	bottom:50px;
+	left:30px;
+}
+
+.Save{
+	position: absolute;
+	bottom:50px;
+	left:-130px;
 }
